@@ -349,7 +349,7 @@ body {
 
 footer {
 
-  height: 700px;
+  height: 500px;
   width: 100%;
   background-color: rgb(0, 0, 0);
   position: relative;
@@ -388,11 +388,11 @@ footer {
   width: 100px;
   position: relative;
   top: 150px;
-  left: 60px;
+  left: 65px;
 
 }
 
-.social i {
+.social img {
 
   margin-left: 15px;
 }
@@ -524,6 +524,7 @@ footer {
 
   .mid-5 {
     height: 800px;
+    margin-top: 250px;
   }
 
   .footer {
@@ -543,34 +544,6 @@ footer {
 .container h2 {
   font-size: 14px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 .col1 ul {
   list-style: none;
@@ -679,9 +652,27 @@ footer {
 
 /* Media Query */
 
+@media(max-width: 767px) {
+
+  .sec .cloud{
+    margin-left: 10px;
+  }
+  
+  .mid-4 .prducts{
+    position: relative;
+    left: 0px;
+    display: grid;
+    grid-gap: 5rem;
+    grid-template-columns: repeat(3, 180px);
+    grid-row-gap: 20px;
+    padding-bottom: 120px;
+  }
+}
+
 @media (max-width: 820px) {
 
   .mid-4 .prducts {
+    padding-bottom: 50px ;
     position: relative;
     top: 50px;
     margin-top: -200px;
@@ -720,7 +711,13 @@ footer {
 }
 
 @media (max-width: 820px) {
+  .mid-5 .text h1{
+    font-size: 20px;
+  }
 
+  .mid-5 .text button{
+    margin-left: 20px;
+  }
   .middle {
     position: relative;
     left: 0;
@@ -734,9 +731,11 @@ footer {
 
 @media (max-width: 820px) {
 
+
+
+
   .sec .cloud {
-    left: 0;
-    position: relative;
+    margin-left: -53%;
   }
 
 
@@ -962,7 +961,7 @@ footer {
 @media (min-width: 992px) {
   .sec {
     flex-direction: row;
-    left: 0px;
+    left: 30px;
   }
 }
 
